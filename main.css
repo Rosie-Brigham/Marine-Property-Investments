@@ -1,8 +1,12 @@
-.row-fluid [class*="span11"]:first-child  {background-color: #191970; }
-body {color:pink;}
+.row-fluid [class*="span11"]:first-child  {background-color: #191970; border-width:2px }
+body {font-family: tahoma; background-color: #D3D3D3;}
 
 .navbar .nav {background-color: #191970; font-family: tahoma; font-size:
      16px; color: #FFFAFA;}
 
     .navbar .nav > li > a:hover {color:#F0E68C;}
     .navbar .nav > li > a {color: #FFFAFA;}
+
+.row {background-color:#FFFAFA }
+
+
