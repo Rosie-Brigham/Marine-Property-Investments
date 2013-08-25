@@ -1,6 +1,7 @@
 
 /*row with logo in*/
-div.row {text-align: right; color:azure;background-color:#191970;}
+div.row {text-align: right; color:azure;
+    background-color:#196361;font-size:20px;text-align: right}
 
 
 
