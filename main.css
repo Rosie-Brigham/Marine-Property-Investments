@@ -1,29 +1,39 @@
 
-body {font-family: 'tahoma';background-image: url('water.jpg'); 
+/*row with logo in*/
+div.row {text-align: right; color:azure;background-color:#191970;}
+
+
+
+/*top bit - nav bar long bit*/
+div.span12 {background-color: #2F4F4F;
+    border-width:2px; font-family: 'Raleway'; width:100%;}
+
+/*navbar stuff*/
+.navbar .nav {background-color: #2F4F4F; 
+    font-family: tahoma; font-size:
+     16px; color: #FFFAFA;}
+
+    .navbar .nav > li > a:hover {color:#F0E68C;}
+    .navbar .nav > li > a {color: #FFFAFA;}
+
+
+
+/*bit in box*/
+div.span2.row-fluid [class*="span"]:first-child
+{background-color:#2F4F4F }
+
+
+body {font-family:'tahoma';background-image: url('water.jpg');
 background-repeat:no-repeat;background-size: 100% 
 ;color:black;}
 
-.container-narrow { width: 1250px;
+/*transbox*/
+.container-narrow {width: 1250px;
     height:750px;
     margin-right: 50px;
     margin-left: 50px;
     border:1.5px solid black;
     opacity:0.8; font-size: 20px;
     background: azure;}
-/*navbar stuff*/
-.navbar .nav {background-color: #191970; font-family: tahoma; font-size:
-     16px; color: #FFFAFA;}
 
-    .navbar .nav > li > a:hover {color:#F0E68C;}
-    .navbar .nav > li > a {color: #FFFAFA;}
-
-/*row with logo in*/
-.row {background-color:#191970;}
-
-div.transbox {background-color:283945; }
-
-/*top bit*/
-.row-fluid [class*="span11"]:first-child  {background-color: #191970; 
-    border-width:2px; font-family: 'Raleway'; width:100%; }
-
-.span9 {text-align: right; color:azure;}
+div.transbox {background-color:#283945; }
